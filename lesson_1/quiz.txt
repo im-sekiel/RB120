@@ -1,0 +1,47 @@
+Notes:
+
+Question # 1
+
+Which of the following statements are problems that led to the creation of OOP?
+
+Large, complex programs can be difficult to maintain due to dependencies throughout the program. OOP lets programmers write programs in which the different parts of the program interect, thus reducing dependencies and facilitating maintenance. 
+
+Coding in a non-OO way often means writing code that is useful solely within a single context. Defining basic classes and leveraging concepts like inheritance to introduce more detailed behaviors provides a greater level of reusability and flexibility.
+
+Complex coding problems are often difficult to break down and solve in a clear and systematic way. Using OOP to model classes appropriate to the problem, and using real-world nouns to represent objects, lets programmers think at a higher level of abstraction that help them break down and solve problems.
+
+
+Question # 2
+
+Which of the following statments are true when talking about the relationship between classes and objects in Ruby? 
+
+Classes act as a molds or templates for objects
+
+An object's class determines its behaviors and attributes.
+
+Objects are instances of a class.
+
+
+Question # 4
+
+Which of the following statemnets are true when talking about encapsulation?
+
+Ruby accomplishes encapsulation by creating objects and exposing interfaces(i.e. methods) to interact with those objects.
+
+Encapsulation hides functionality and makes it unavailable to the rest of the code base.
+
+
+Question # 6
+
+
+Which of the following statemnets about polymorphism are true?
+
+Polymorphism is the ability of different types to respond to the same method invocation, often, but not always, in different ways. 
+
+Method overriding is one way in which Ruby implements polymorphism.
+
+
+** Three main ways to achieve polymorphism
+1 - Inheritance - This is the method overriding
+2 - Modules/mixins - This the ability of different types to respond to the same method invocations
+3 - duck-typing - When objects of different classes share methods with same naming
